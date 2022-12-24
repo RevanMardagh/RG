@@ -1,0 +1,34 @@
+* {
+  scroll-behavior: smooth;
+}
+
+.rev-section {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.rev-people {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.rev-img-frame {
+  height: 300px;
+  width: 225px;
+  border: 4px solid black;
+  border-radius: 30%;
+  /* background: #eee; */
+  margin: auto;
+  /* padding: 30px; */
+  overflow: hidden;
+}
+
+.rev-img-frame img {
+  width: 100%;
+  height: 100%;
+}
